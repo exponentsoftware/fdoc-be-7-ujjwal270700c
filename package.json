@@ -1,0 +1,32 @@
+{
+  "name": "day12",
+  "version": "1.0.0",
+  "description": "## TODO List with Postgres/Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/fdoc-be-7-ujjwal270700c.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/fdoc-be-7-ujjwal270700c/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/fdoc-be-7-ujjwal270700c#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1",
+    "ps": "^1.0.0",
+    "sequelize": "^6.6.5"
+  }
+}
